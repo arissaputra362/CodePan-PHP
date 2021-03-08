@@ -111,7 +111,7 @@
                         src="./img/navbar/logo-codepan.png" alt="" class=""></a>
 
                 <!-- Toggler Button using boostrap 4 and small costumize on animation when screen < 992px -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                <button id="toggleTop" class="navbar-toggler toggle-top" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-inner"></span>
@@ -247,24 +247,42 @@
     </a>
     <!-- End Fixed Button WA -->
 
-    <!-- Jumbotron Heading -->
-    <div id="mt" class="jumbotron d-flex justify-content-end">
+    <!-- Jumbotron Heading with background from file -->
+    <div id="mt" class="jumbotron d-flex justify-content-end"
+        style="background-image: url('./img/background/JumboboxPIC.png');">
+        <!-- Container using boostrap 4 and scroll animation fade from down using Animated On Scroll -->
         <div class="container" data-aos="fade-down">
-            <div class="content col-12">
+            <!-- Content -->
+            <div class="content">
+                <!-- Sub Heading  -->
                 <h2>Codepan Studio Melayani</h2>
+
+                <!-- Main Heading with Headline Animation -->
                 <h1 class="display-4 cd-headline slide">
+                    <!-- Wrapper for Headline Animation -->
                     <span class="cd-words-wrapper text-right">
+                        <!-- Add Text Here -->
+                        <!-- Active text (display first) indicator "is-visible" -->
                         <b class="is-visible">Sistem Informasi</b>
+
+                        <!-- Another text -->
                         <b>Aplikasi Mobile</b>
                         <b>Aplikasi E-Gov</b>
                         <b>Integrasi Sistem</b>
                         <b>Pengadaan IT</b>
                     </span>
                 </h1>
+                <!-- End of Main Heading with Headline Animation -->
+
+                <!-- Line Under Main Heading -->
                 <hr>
+
+                <!-- Describe text -->
                 <p class="col-lg-7 col-sm-12 p-0">Layanan jasa pembuatan software kami telah membantu banyak perusahaan
                     untuk mempermudah dan meningkatkan kinerja IT mereka</p>
                 <br>
+
+                <!-- Link using hover-effect.css -->
                 <p class="hvr-underline-from-left"><a href="">Dapatkan Konsultasi Gratis Sekarang</a></p>
             </div>
         </div>

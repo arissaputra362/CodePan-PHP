@@ -372,106 +372,120 @@ nav li .fab:hover {
 
 /* --- Fixed Wa Button --- */
 a.wa-button {
-  position: fixed;
+  position: fixed; /* Position Fixed to screen */
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  right: 30px;
-  bottom: 15px;
-  background-color: #1ea14e;
+  flex-direction: row; /* Flex direction to flex icon and text */
+  align-items: center; /* Center vertical icon and text */
+  right: 30px; /* Position wa button anchor right of screen */
+  bottom: 15px; /* Position wa button anchor bottom of screen */
+  background-color: #1ea14e; /* Bakcground Color */
   padding: 5px 15px;
   border-radius: 20px;
-  color: #fff;
+  color: #fff; /* Text and icon color */
   z-index: 1000;
   cursor: pointer;
   text-decoration: none;
-  opacity: 0.6;
+  opacity: 0.6; /* Opacity when not hover/ not click */
 }
 
+/* -- Wa Button Hover -- */
 a.wa-button:hover {
-  opacity: 1;
+  opacity: 1; /* Opacity when on hover / click */
 }
 
+/* -- Text decoration none -- */
 a.wa-button:hover {
   text-decoration: none;
 }
 
+/* -- Icon size -- */
 .wa-button .fa-whatsapp {
   font-size: 30px;
   margin-right: 10px;
 }
 
+/* -- Text size -- */
 .wa-button p {
   font-weight: 600;
   font-size: 13px;
 }
+/* --- End of Fixed Wa Button --- */
 
-/* --  Jumbotron Costum CSS -- */
+/* ---  Jumbotron Costum CSS --- */
 .jumbotron {
-  background: url("../img/background/JumboboxPIC.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
+  background-repeat: no-repeat; /* no repeat background image */
+  background-size: cover; /* background image covering container */
+  color: #fff; /* text color */
   border-radius: 0;
   margin-bottom: 0;
   padding-top: 5.5rem;
 }
 
+/* -- Align Content to right -- */
 .jumbotron .content {
   text-align: right;
   margin-right: 0;
 }
 
+/* -- Sub Heading Font Size -- */
 .jumbotron .content h2 {
   font-size: 30px;
   margin-bottom: 0.8rem;
 }
 
+/* -- Main Heading Font Size --*/
 .jumbotron .cd-headline {
   font-weight: 800;
   font-size: 4rem;
 }
 
+/* -- Full width heading in container -- */
 .jumbotron .content h1 span {
   margin-right: 0;
   width: 100%;
 }
 
+/* -- Align Main Heading to right -- */
 .jumbotron .content h1 span b {
   text-align: right;
   margin: 0;
   width: 100%;
 }
 
+/* -- Line under Main Heading -- */
 .jumbotron hr {
-  border: 2px solid #fff;
-  width: 10%;
+  border: 2px solid #fff; /* Line Color */
+  width: 10%; /* Line width */
   margin-right: 0;
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
+/* -- Text Describe properties -- */
 .jumbotron p {
-  font-size: 1.5rem;
+  font-size: 1.5rem; /* Font Size */
   text-align: right;
   display: inline-block;
   line-height: 1.2;
-  margin-bottom: 30px;
+  margin-bottom: 30px; /* Add margin bottom of it */
   padding-bottom: 5px;
 }
 
+/* -- Costum Underline Hover Effect -- */
 .jumbotron p.hvr-underline-from-left:before {
   height: 1.5px;
-  background: #fff;
+  background: #fff; /* underline color */
   margin-bottom: 0;
 }
 
+/* -- Link Font Size -- */
 .jumbotron a {
   font-weight: 300;
   font-size: 1.2rem;
   color: #fff;
   text-decoration: none;
 }
+/* --- End of Jumbotron Costum CSS --- */
 
 /* Masalah dan kinerja */
 .page-masalah h1,
